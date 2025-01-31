@@ -2,4 +2,5 @@
 <br>
 <br>
 <h2>Esse foi o primeiro projeto que aprendi no <a>https://rodolfomori.com.br/devclub</a> </h2>
-<img scr="https://raw.githubusercontent.com/AlanSantos401/Projeto-Mario-1/a95b3cc9978678f542331036f8a6a8f0bd17b8ff/img/site%20celular.jpg">
+<img scr="https://raw.githubusercontent.com/AlanSantos401/Projeto-Mario-1/a95b3cc9978678f542331036f8a6a8f0bd17b8ff/img/site%20celular.jpg"/>
+<img scr="https://github.com/AlanSantos401/Projeto-Mario-1/blob/principal/img/site%20computador.png?raw=true"/>
