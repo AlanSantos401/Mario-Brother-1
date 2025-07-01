@@ -31,7 +31,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
 }
 
 p {
@@ -44,8 +44,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 100px;
-    height: 100vh;
+    padding: 5px;
+    height: 100%;
 
 
 }
@@ -194,8 +194,9 @@ textarea {
     }
 
     .mario-luigi {
-        width: 80vw;
-        height: auto;
+        margin-top: 13px;
+        width: 70vw;
+        height: 100%;;
     }
 
     .header img {
