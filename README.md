@@ -3,9 +3,10 @@
 <img src="./img/super-mario.png"  width="600px"/>
 
 <h3>Projeto focado em atendimento ao cliente, resolvendo problemas hidráulicos.</h3>
-<h4>Focado em responsividade e divertido para os clientes</h4>
+<h3>Focado em responsividade e divertido para os clientes</h3>
 <br>
-<h4> </h4>
+## 🚀 Como Ver
+Abra o <a href="https://alansantos401.github.io/Projeto-Mario-1/" target="_blank" rel="noopener noreferrer">Super Mario</a> no navegador e divirta-se!
 
 ## 📁 Tecnologias
 - HTML5
