@@ -8,7 +8,7 @@ function mostrarForm (){
     mascara.style.visibility = "visible"
 }
 function esconderForm(){
-    form.style.left = "-300px"
+    form.style.left = "-350px"
     form.style.transform = "translateX(0)"
     mascara.style.visibility = "hidden"
 }
