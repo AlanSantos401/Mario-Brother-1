@@ -2,25 +2,31 @@ const form = document.querySelector(".fale-conosco")
 const mascara = document.querySelector(".mascara-formulario")
 
 document.getElementById("whatsappForm").addEventListener("submit", function (e) {
-    e.preventDefault()
+    e.preventDefault();
 
-    const nome = this.nome.value;
-    const telefone = this.telefone.value;
-    const duvida = this.duvida.value;
+    const nome = this.nome.value.trim();
+    const telefone = this.telefone.value.trim();
+    const duvida = this.duvida.value.trim();
+
+    if (!nome || !telefone || !duvida) {
+        alert("Por favor, preencha todos os campos.");
+        return;
+    }
 
     const whatsapp = "5574981215249";
 
     const mensagem =
-        ` *Pedido de Orçamento*
+        `📋 *Pedido de Orçamento*
 
-    Nome: ${nome}
-    Telefone: ${telefone}
-    Problema: ${duvida}`;
+Nome: ${nome}
+Telefone: ${telefone}
+Problema: ${duvida}`;
 
-    const url = `https://wa.me/${whatsapp}?text=${encodeURIComponent(mensagem)}`
+    const url = `https://wa.me/${whatsapp}?text=${encodeURIComponent(mensagem)}`;
 
-    window.open(url, "_blank")
-})
+    window.open(url, "_blank");
+});
+
 
 function mostrarForm() {
     form.style.left = "50%"
