@@ -14,7 +14,8 @@
         <img src="./img/icon.png" alt="logo mario">
         <a href="">Inicío</a>
         <a href="servicos.html">Nossos Serviços</a>
-        <a href="">Fale conosco</a>
+        <a href="https://wa.me/5574981215249?text=Ola!%0AGostaria%20de%20um%20orcamento." target="_blank"
+            rel="noopener noreferrer">Fale conosco</a>
     </div>
     <div class="caixa-mae">
         <div class="caixa-principal">
@@ -26,7 +27,7 @@
                 salvar o
                 dia! Apresentamos a vocês os encanadores mais famosos
                 do Reino dos Cogumelos, Mario e Luigi!</p>
-            <button class="entrem-contato" onclick="mostrarForm()">ENTRE EM CONTATO</button>
+            <button class="entrem-contato" onclick="mostrarForm()">PEDIR ORÇAMENTO</button>
         </div>
         <div>
             <img src="./img/mario.png" alt="logo Mario e Luigi" class="mario-luigi">
@@ -36,21 +37,19 @@
     <div class="caixa-video"> <video src="./img/video.mp4" autoplay muted loop></video>
         <div class="mascara"></div>
     </div>
-    <a href="https://w.app/r2gktx" class="link-whatsapp">
+    <a href="https://wa.me/5574981215249?text=Ola!%0AGostaria%20de%20um%20orcamento." target="_blank"
+        rel="noopener noreferrer" class="link-whatsapp">
         <img src="./img/images-removebg-preview.png" alt="link para whatsapp">
     </a>
     <div>
-        <form 
-            class="fale-conosco" 
-            action="https://formcarry.com/s/uXBrBu7DEPb"
-            method="POST"
-            enctype="multipart/form-data">
-             <input placeholder="Seu Nome" type="text" name="nome">
-             <input placeholder="Seu Telefone" type="text" name="telefone">
-             <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
-             <button type="submit">Pedir Orcamento</button>
+        <form class="fale-conosco" id="whatsappForm">
+            <input placeholder="Seu Nome" type="text" name="nome" required>
+            <input placeholder="Seu Telefone" type="text" name="telefone" required>
+            <textarea placeholder="Digite seu problema aqui..." name="duvida" required></textarea>
+            <button type="submit">Pedir Orçamento</button>
         </form>
     </div>
+
 </body>
 <script src="scripts.js"></script>
 

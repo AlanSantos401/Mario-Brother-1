@@ -156,7 +156,8 @@ textarea {
     height: 100px;
     border-radius: 5px;
     border: 1px solid gray;
-    padding-left: 5px;
+    padding-top: 5px;
+    padding-left: 7px;
     outline-color: #18D80F;
 
 }
