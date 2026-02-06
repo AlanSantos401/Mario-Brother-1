@@ -11,11 +11,11 @@ document.getElementById("whatsappForm").addEventListener("submit", function (e) 
     const whatsapp = "5574981215249";
 
     const mensagem =
-     `   *Pedido de Orçamento*
+        ` *Pedido de Orçamento*
 
-     Nome: ${nome}
-     Telefone: ${telefone}
-     Problema: ${duvida}`;
+    Nome: ${nome}
+    Telefone: ${telefone}
+    Problema: ${duvida}`;
 
     const url = `https://wa.me/${whatsapp}?text=${encodeURIComponent(mensagem)}`
 
