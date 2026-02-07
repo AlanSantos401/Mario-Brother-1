@@ -16,15 +16,17 @@ document.getElementById("whatsappForm").addEventListener("submit", function (e) 
     const whatsapp = "5574981215249";
 
     const mensagem =
-        `📋 *Pedido de Orçamento*
-
-Nome: ${nome}
-Telefone: ${telefone}
-Problema: ${duvida}`;
+        `📋 *Pedido de Orçamento*\n\n` +
+        `Nome: ${nome}\n` +
+        `Telefone: ${telefone}\n` +
+        `Problema: ${duvida}`
 
     const url = `https://wa.me/${whatsapp}?text=${encodeURIComponent(mensagem)}`;
 
     window.open(url, "_blank");
+
+    this.reset();
+
 });
 
 
